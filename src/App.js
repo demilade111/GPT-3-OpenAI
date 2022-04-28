@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Blog from './components/Blog';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Possibilities2 from './components/Possibilities2';
+import WhatGPT3 from './components/WhatGPT3';
 
 function App() {
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Header/>
+    <WhatGPT3/>
+    <Possibilities2/>
+    <Blog/>
+    <Footer/>
+    
+   
     </div>
   );
 }
